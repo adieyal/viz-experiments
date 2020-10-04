@@ -34,7 +34,8 @@ const d3 = {
   forceX,
   forceY,
   tip,
-  format
+  format,
+  transition
 }
 
 export default d3
