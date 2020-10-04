@@ -1,7 +1,7 @@
 {
   "name": "circles",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "index.html",
   "license": "MIT",
   "dependencies": {
     "d3-array": "^2.8.0",
@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build --dist-dir dist --no-content-hash  index.html"
   },
   "devDependencies": {
     "parcel-plugin-asset-csv": "^0.1.5"

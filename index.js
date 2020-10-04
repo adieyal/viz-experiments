@@ -4,7 +4,7 @@ import nlc_data from 'url:./nlc2016.csv';
 const width = 600, height = 600;
 const minRadius = 1, maxRadius = 20;;
 const duration = 50;
-const provinceRowHeight = 160;
+const provinceRowHeight = 100;
 const provinceColWidth = 120;
 
 const svg = d3.select('#container').append("svg")
@@ -151,7 +151,8 @@ d3.csv(nlc_data).then(function(data) {
     const extent = d3.extent(data, d => d['Amount'])
     const radiusScale = d3.scaleSqrt(extent, [minRadius, maxRadius])
     data.forEach(d => { 
-    d['r'] = radiusScale(d['Amount']) })
+        d['r'] = radiusScale(d['Amount'])
+    })
 
     circles = svg.selectAll('g.award')
         .data(data)
