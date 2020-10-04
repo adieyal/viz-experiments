@@ -19,6 +19,7 @@
     "build": "parcel build --dist-dir dist --no-content-hash  index.html"
   },
   "devDependencies": {
-    "parcel-plugin-asset-csv": "^0.1.5"
+    "parcel-plugin-asset-csv": "^0.1.5",
+    "standard": "^14.3.4"
   }
 }
