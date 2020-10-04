@@ -1,6 +1,31 @@
 <html>
-    <head></head>
+    <head>
+        <style>
+            #map {
+              width: 960px;
+              height: 600px;
+            }
+
+            svg {
+              position: relative;
+            }
+
+            path {
+              fill: #000;
+              fill-opacity: .2;
+              stroke: #fff;
+              stroke-width: 1.5px;
+            }
+
+            path:hover {
+              fill: brown;
+              fill-opacity: .7;
+            }
+        </style>
+        <link rel="stylesheet" href="https://npmcdn.com/leaflet@1.0.0-rc.1/dist/leaflet.css"/>
+    </head>
     <body>
-    <h1>Test</h1>
+    <div id="map" style="height:500px"></div>
+    <script src="index.js"></script>
     </body>
 </html>

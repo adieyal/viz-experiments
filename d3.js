@@ -10,6 +10,7 @@ import {
 import { transition } from 'd3-transition'
 import tip from 'd3-tip'
 import { format } from 'd3-format'
+import { geoTransform, geoPath } from 'd3-geo'
 
 const d3 = {
   select,
@@ -35,7 +36,11 @@ const d3 = {
   forceY,
   tip,
   format,
-  transition
+  transition,
+  geo: {
+    transform: geoTransform,
+    path: geoPath
+  }
 }
 
 export default d3
