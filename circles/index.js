@@ -1,4 +1,4 @@
-import d3 from './d3'
+import d3 from '../d3'
 import nlcData from 'url:./nlc2016.csv'
 
 const width = 600; const height = 600
