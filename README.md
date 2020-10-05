@@ -1,7 +1,6 @@
-# d3-lottery-bubbles
-Messing around with force directed bubbles
+# Viz experiments with various data visualisations
 
-The code hasn't been neatened up. Will need to move to rendering using canvas given the number of nodes.
+Not really completely projects just testing out various ideas
 
 ## Running it
 
