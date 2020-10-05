@@ -1,7 +1,7 @@
 import d3 from '../d3';
 import L from 'leaflet';
 import './SmoothWheelZoom';
-import dcgeo from 'url:./dc.geojson'
+import dcgeo from './dc.geojson'
 
 function projectPoint(x, y) {
     const point = map.latLngToLayerPoint(new L.LatLng(y, x));

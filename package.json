@@ -14,14 +14,13 @@
     "d3-tip": "^0.9.1",
     "d3-transition": "^2.0.0",
     "leaflet": "^1.7.1",
-    "parcel": "^2.0.0-beta.1"
+    "parcel": "^1.12.4"
   },
   "scripts": {
     "start": "parcel serve index.html",
-    "build": "parcel build --dist-dir dist --no-content-hash  index.html"
+    "build": "parcel build index.html"
   },
   "devDependencies": {
-    "parcel-plugin-asset-csv": "^0.1.5",
     "standard": "^14.3.4"
   }
 }
